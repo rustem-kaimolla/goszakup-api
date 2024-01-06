@@ -1,0 +1,25 @@
+{
+    "name": "rustem-kaimolla/goszakup-api",
+    "description": "Клиент для работы с API Госзакуп",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rustem Kaimolla",
+            "email": "rustem@exact.kz"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.7.0",
+        "nesbot/carbon": "^2.72"
+    },
+    "autoload": {
+        "psr-4": {
+            "RustemKaimolla\\GoszakupApi\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
